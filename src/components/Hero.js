@@ -26,6 +26,6 @@ export default function Hero(){
         </div>
         </div>
      
-     <img  className='md:w-1/3 ' src={HeroImg} data-aos="fade-down-right"  data-aos-duration="1000"   />
+     <img alt='' className='md:w-1/3 ' src={HeroImg} data-aos="fade-down-right"  data-aos-duration="1000"   />
      </section>
 }

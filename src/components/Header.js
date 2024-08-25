@@ -18,8 +18,8 @@ export default function Header() {
             </ul>
         </nav>
         {toggleMenu && <nav className="block md:hidden ">
-            <ul onClick={()=>setToggleMenu(!toggleMenu)}className="bg-secondary flex flex-col text-white mobile-nav font-bold" >
-                <li><a href="#">Home</a></li>
+            <ul onClick={()=>setToggleMenu(!toggleMenu)} className="bg-secondary flex flex-col text-white mobile-nav font-bold" >
+                <li><a href="/">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#project">Project</a></li>

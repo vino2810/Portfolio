@@ -7,7 +7,7 @@ export default function Resume() {
 
     return <section className='flex flex-col md:flex-row  px-5' id='resume'>
         <div className='md:w-1/2 py-5 flex justify-center md:justify-end'>
-            <img className='w-[300px]' src={aboutimg} />
+            <img className='w-[300px]' src={aboutimg} alt='' />
         </div>
         <div className='md:w-1/2 flex justify-center '>
             <div className='flex flex-col justify-center text-white'>

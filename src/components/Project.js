@@ -39,11 +39,11 @@ export default function Project() {
                 {config.projects.map((project)=>
                
                   <div className='relative rounded'>
-                  <img className='h-[200px] w-[500px]' src={project.image} />
+                  <img className='h-[200px] w-[500px]' alt='project' src={project.image} />
                   <div className='absolute left-0 right-0 bottom-0 top-[0px] bg-secondary opacity-0 duration-500 hover:opacity-100'>
                       <p className='text-center px-5 py-5 font-bold' >{project.description} 
                       <div className='flex justify-center'>
-                    <a target='_blank' href={project.link} className='button my-2'>View Source</a>
+                    <a target='_blank' rel='noreferrer' href={project.link} className='button my-2'>View Source</a>
                   </div>
                       </p>
                   </div>
