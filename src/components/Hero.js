@@ -19,10 +19,10 @@ export default function Hero(){
         <h1 className=' text-white text-6xl font-google-font'> Hi... <br/> I'm Vinothkumar 
         <p className='text-2xl' >{config.subtitle}</p> </h1>
         <div className='flex py-7'>
-            <a href={config.social.Linkedin} className='pr-3 hover:text-white '> <BsLinkedin  size={30}/></a>
-            <a href={config.social.gitHub} className='pr-3 hover:text-white'> <AiOutlineGithub  size={30}/></a>
-            <a href={config.social} className='pr-3  hover:text-white'> <FaFacebookSquare size={30}/></a>
-            <a href={config.social} className='pr-3  hover:text-white'> <AiOutlineInstagram size={30}/></a>
+            <a href={config.social.Linkedin} className='pr-3  text-[#0A66C2] hover:text-white '> <BsLinkedin  size={30}/></a>
+            <a href={config.social.gitHub} className='pr-3 hover:text-white text-gray-600 md:text-[#181717] '> <AiOutlineGithub  size={30}/></a>
+            <a href={config.social} className='pr-3  hover:text-white text-[#0A66C2]' > <FaFacebookSquare size={30}/></a>
+            <a href={config.social} className='pr-3  hover:text-white text-[#E4405F]'> <AiOutlineInstagram size={30}/></a>
         </div>
         </div>
      
