@@ -3,7 +3,7 @@ import { GiClick } from "react-icons/gi";
 
 export default function Resume() {
     const congi={
-        link : 'https://drive.google.com/file/d/1pttns2X50oUQexBKgZpmLlmhPyQ6akHk/view?usp=drivesdk'
+        link : 'https://drive.google.com/file/d/120fHwsQFqlCaDfxMI6Sn0kgXbUa3zHDS/view?usp=drivesdk'
     }
 
     return <section className='flex flex-col md:flex-row  px-5' id='resume'>
